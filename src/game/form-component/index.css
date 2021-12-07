@@ -1,0 +1,43 @@
+.start-form {
+    width: 74vh;
+    height: 74vh;
+    padding: 25px;
+    background-color: #00454A;
+    border-radius: 55px;
+    max-height: 100vh;
+    max-width: 100vw;
+    min-width: 400px;
+    min-height: 200px;
+    box-sizing: border-box;
+}
+
+.start-form * {
+    border: none;
+    outline: none;
+}
+
+.start-form form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+
+.start-form input::placeholder {
+    color: #707070;
+    font-size: 1.5em;
+}
+
+.start-form input {
+    background-color: #003A3E;
+    padding: 25px;
+}
+
+.start-form input[type="button"] {
+    cursor: pointer;
+}
+
+.start-form input[type="button"]:active {
+    transform: scale(.95)
+}

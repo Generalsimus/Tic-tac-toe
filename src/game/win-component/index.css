@@ -1,0 +1,25 @@
+.win-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    padding: 35px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.win-block svg {
+    user-select: none;
+}
+
+.win-block button {
+    padding: 9px 10px;
+    margin: 20px;
+    border: none;
+    background: red;
+    border-radius: 6px;
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.hover-xo-path:hover {
+    cursor: pointer;
+}
+
+.hover-xo-path:hover path {
+    fill: aquamarine;
+    background-color: black
+}
